@@ -131,3 +131,6 @@ If you have any queries or want to connect, feel free to reach out:
 - 🌐 **Portfolio:** [https://portfolio-anuragzete.web.app]
 - 📧 **Email:** [anuragzete27@outlook.com]
 - 💬 **LinkedIn:** [https://linkedin.com/in/anurag-zete-java-developer]
+- 🔥 **LeetCode:** [https://leetcode.com/u/anuragzete]
+
+
