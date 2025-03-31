@@ -13,14 +13,14 @@ package patterns;
 
 public class NumberPyramid {
     public static void main(String[] args) {
-        int num = 5;
+        byte num = 5;
         boolean isIncreasing = true;
 
         outerLoop:
-        for (int i = 0; i < num; i++) {
+        for (byte i = 0; i < num; i++) {
             int count = i;
             innerLoop:
-            for (int j = 0; j < num+i; j++) {
+            for (byte j = 0; j < num+i; j++) {
                 if (j < num-(i+1)){
                     System.out.print(" ");
                 } else if (count < (i*2)+1 && isIncreasing) {
