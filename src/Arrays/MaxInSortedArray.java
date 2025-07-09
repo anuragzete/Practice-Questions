@@ -8,14 +8,14 @@ package Arrays;
 * Output = 6
 * */
 
-public class MaxinSortedArray {
+public class MaxInSortedArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
         int max = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
-                max = arr[i];
+        for (int num: arr) {
+            if (num > max) {
+                max = num;
             }
         }
 
